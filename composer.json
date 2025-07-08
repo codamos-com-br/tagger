@@ -1,27 +1,34 @@
 {
     "name": "codamos/tagger",
-    "description": "A go-like tag parser for PHP classes",
+    "description": "A simple tagging library inspired by Go's struct tags",
     "type": "library",
-    "require": {
-        "php": "^8.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^10.5",
-        "friendsofphp/php-cs-fixer": "^3.80",
-        "phpstan/phpstan": "^2.1"
-    },
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Codamos\\Tagger\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "nawarian",
             "email": "nickolas@phpsp.org.br"
         }
     ],
+    "require": {
+        "php": "^8.1",
+        "ext-mbstring": "*",
+        "ramsey/collection": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "friendsofphp/php-cs-fixer": "^3.80",
+        "phpstan/phpstan": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codamos\\Tagger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codamos\\Tagger\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
         "format:fix": "php-cs-fixer fix --config=.php-cs-fixer.dist.php",
         "phpstan": "phpstan analyse --memory-limit=1G --configuration=phpstan.neon",

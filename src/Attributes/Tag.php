@@ -7,4 +7,9 @@ namespace Codamos\Tagger\Attributes;
 use Attribute;
 
 #[Attribute(flags: Attribute::TARGET_PROPERTY)]
-class Tag {}
+final class Tag
+{
+    public function __construct(
+        public readonly string $tagContents,
+    ) {}
+}

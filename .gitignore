@@ -4,3 +4,4 @@ composer.phar
 .phpunit.cache
 .php-cs-fixer.cache
 .idea
+.phpunit.result.cache
