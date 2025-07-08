@@ -48,8 +48,8 @@ class UserDTO
     #[Tag('json:"email" orm:"email,notNull,size:255,unique,index"')]
     public string $email;
 
-$parser = new TagParser()
-$scanner = new Scanner($scanner);
+$parser = new TagParser();
+$scanner = new TagScanner($scanner);
 
 $map = $scanner->scan(UserDTO::class);
 
