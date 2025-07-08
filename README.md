@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/codamos-com-br/tagger"><img src="http://img.shields.io/badge/source-codamos-com-br/tagger-blue.svg?style=flat-square" alt="Source Code"></a>
+    <a href="https://github.com/codamos-com-br/tagger"><img src="https://img.shields.io/badge/source-codamos/tagger-blue.svg?style=flat-square" alt="Source Code"></a>
     <a href="https://packagist.org/packages/codamos/tagger"><img src="https://img.shields.io/packagist/v/codamos/tagger.svg?style=flat-square&label=release" alt="Download Package"></a>
     <a href="https://php.net"><img src="https://img.shields.io/packagist/php-v/codamos/tagger.svg?style=flat-square&colorB=%238892BF" alt="PHP Programming Language"></a>
     <a href="https://github.com/codamos-com-br/tagger/blob/main/LICENSE"><img src="https://img.shields.io/packagist/l/codamos/tagger.svg?style=flat-square&colorB=darkcyan" alt="Read License (MIT)"></a>
