@@ -11,7 +11,7 @@ use Codamos\Tagger\Parser\ParserInterface;
 use InvalidArgumentException;
 use ReflectionClass;
 
-final class TagScanner
+final class TagScanner implements ScannerInterface
 {
     public function __construct(
         private readonly ParserInterface $parser,
